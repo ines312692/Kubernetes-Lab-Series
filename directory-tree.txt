@@ -1,0 +1,49 @@
+Kubernetes-Lab-Series/
+├── 00-setup/
+│   ├── local-cluster-setup/
+│   │   ├── docker-desktop/
+│   │   ├── kind/
+│   │   ├── minikube/
+│   ├── installation-guide.md
+│   └── tools-installation.md
+├── 01-beginner/
+│   ├── 01-introduction/
+│   │   ├── architecture-overview.md
+│   │   ├── lab-first-pod.yml
+│   │   └── what-is-kubernetes.md
+│   ├── 02-pods/
+│   ├── 03-services/
+│   ├── 04-deployments/
+│   ├── 05-configmaps-secrets/
+│   ├── 06-volumes/
+├── 02-intermediate/
+│   ├── 07-namespaces/
+│   ├── 08-ingress/
+│   ├── 09-persistent-volumes/
+│   ├── 10-jobs-cronjobs/
+│   ├── 11-daemonsets-statefulsets/
+│   ├── 12-resource-management/
+├── 03-advanced/
+│   ├── 13-rbac/
+│   ├── 14-network-policies/
+│   ├── 15-custom-resources/
+│   ├── 16-operators/
+│   ├── 17-helm/
+│   ├── 18-monitoring-logging/
+│   ├── 19-cluster-administration/
+│   ├── 20-troubleshooting/
+│   ├── 21-security-hardening/
+│   ├── 22-multi-cluster/
+│   ├── 23-gitops/
+│   ├── 24-advanced-networking/
+├── 04-projects/
+│   ├── ci-cd-pipeline/
+│   ├── microservices-app/
+│   ├── monitoring-stack/
+│   ├── multi-tier-application/
+├── 05-resources/
+│   ├── best-practices/
+│   ├── cheatsheets/
+│   ├── troubleshooting-guide/
+├── Kubernetes-Lab-Series.iml
+└── README.md
