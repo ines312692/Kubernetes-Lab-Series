@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-nodeport
+spec:
+  selector:
+    app: nginx-nodeport
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 30080
+  type: NodePort
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-nodeport-pod
+  labels:
+    app: nginx-nodeport
+spec:
+  containers:
+    - name: nginx
+      image: nginx:1.21
+      ports:
+        - containerPort: 80
