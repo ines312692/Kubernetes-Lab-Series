@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-config
+data:
+  DATABASE_URL: "mongodb://localhost:27017"
+  API_KEY: "development-key"
+  config.properties: |
+    environment=development
+    log.level=debug

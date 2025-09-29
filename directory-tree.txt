@@ -12,8 +12,76 @@ Kubernetes-Lab-Series/
 │   │   ├── lab-first-pod.yml
 │   │   └── what-is-kubernetes.md
 │   ├── 02-pods/
+│   │   ├── 01-basic-pod/
+│   │   │   ├── Makefile
+│   │   │   ├── exercise.md
+│   │   │   └── pod.yml
+│   │   ├── 02-pod-labels/
+│   │   │   ├── Makefile
+│   │   │   ├── exercise.md
+│   │   │   └── pod.yml
+│   │   ├── 03-multi-container-pod/
+│   │   │   ├── Makefile
+│   │   │   ├── exercise.md
+│   │   │   └── pod.yml
+│   │   ├── 04-health-checks/
+│   │   │   ├── Makefile
+│   │   │   ├── exercise.md
+│   │   │   └── pod.yml
+│   │   ├── 05-troubleshooting/
+│   │   │   ├── Makefile
+│   │   │   ├── exercise.md
+│   │   │   └── pod.yml
+│   │   └── REDAME.md
 │   ├── 03-services/
+│   │   ├── 01-clusterip-service/
+│   │   │   ├── Makefile
+│   │   │   ├── exercice.md
+│   │   │   ├── pod.yml
+│   │   │   └── service.yml
+│   │   ├── 02-nodeport-service/
+│   │   │   ├── Makefile
+│   │   │   ├── exercice.md
+│   │   │   ├── pod.yml
+│   │   │   └── service.yml
+│   │   ├── 03-loadbalancer-service/
+│   │   │   ├── Makefile
+│   │   │   ├── exercice.md
+│   │   │   ├── pod.yml
+│   │   │   └── service.yml
+│   │   ├── 04-service-discovery/
+│   │   │   ├── Makefile
+│   │   │   ├── exercice.md
+│   │   │   ├── pod.yml
+│   │   │   └── service.yml
+│   │   ├── 05-troubleshooting/
+│   │   │   ├── Makefile
+│   │   │   ├── exercice.md
+│   │   │   ├── pod.yml
+│   │   │   └── service.yml
+│   │   └── REDAME.md
 │   ├── 04-deployments/
+│   │   ├── 01-basic-deployment/
+│   │   │   ├── Makefile
+│   │   │   ├── deployement.yml
+│   │   │   └── exercise.md
+│   │   ├── 02-scaling-deployment/
+│   │   │   ├── Makefile
+│   │   │   ├── deployement.yml
+│   │   │   └── exercise.md
+│   │   ├── 03-rolling-update/
+│   │   │   ├── Makefile
+│   │   │   ├── deployement.yml
+│   │   │   └── exercise.md
+│   │   ├── 04-rollback-deployment/
+│   │   │   ├── Makefile
+│   │   │   ├── deployement.yml
+│   │   │   └── exercise.md
+│   │   ├── 05-troubleshooting/
+│   │   │   ├── Makefile
+│   │   │   ├── deployement.yml
+│   │   │   └── exercise.md
+│   │   └── REDAME.md
 │   ├── 05-configmaps-secrets/
 │   ├── 06-volumes/
 ├── 02-intermediate/
@@ -46,4 +114,5 @@ Kubernetes-Lab-Series/
 │   ├── cheatsheets/
 │   ├── troubleshooting-guide/
 ├── Kubernetes-Lab-Series.iml
-└── README.md
+├── README.md
+└── directory-tree.txt
